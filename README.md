@@ -4,11 +4,17 @@ This is the course project for the Getting and Cleaning Data Coursera course.
 
 ## Requested steps provided by `run_analysis.R` script:
 
-1. Merge the training and the test sets to create one data set.
-2. Extract only the measurements on the mean and standard deviation for each measurement.
-3. Use descriptive activity names to name the activities in the data set
-4. Appropriately label the data set with descriptive variable names.
-5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
+1. Download data from the repository and unzip downloaded file
+2. Load data into R
+3. Add activity and subject identifiers to traning and test data
+3. Union training and test sets into single file
+4. Restrict merged data to only the measurements on the mean and standard deviation for each measurement (+ activity and subject id).
+5. Label restricted data using values from features.txt file
+6. Standardize labels so they correspond to best practices
+7. Appropriately label the data set with descriptive variable names (us labels for restricted data + add labless for activity and subject identifiers)
+8. From the data set in step 4, create a second, independent tidy data set with group means of each variable by subject and activity
+9. Export the result file to tidy.txt
+10. Export column labels for the codebook
 
 ## Data sources:
 
