@@ -16,9 +16,9 @@ This is the course project for the Getting and Cleaning Data Coursera course.
 * Metadata: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## Results: 
-* Tidy data set: https://github.com/dpejcoch/Coursera_DataCleaning/edit/master/tidy.txt
-* Codebook: https://github.com/dpejcoch/Coursera_DataCleaning/edit/master/Codebook.md
-* R code: https://github.com/dpejcoch/Coursera_DataCleaning/edit/master/run_analysis.R
+* Tidy data set: `tidy.txt`
+* Codebook: `Codebook.md`
+* R code: `run_analysis.R`
 
 ## Citation requirements for source data:
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. 
