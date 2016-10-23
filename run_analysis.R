@@ -88,8 +88,8 @@ merged_data <- merged_data[restricted]
 restricted_features_names <- features[restricted_features,2]
 
 # Standardize a little bit names
-restricted_features_names = gsub('-mean', 'mean', restricted_features_names)
-restricted_features_names = gsub('-std', 'std', restricted_features_names)
+restricted_features_names <- gsub('-mean', 'mean', restricted_features_names)
+restricted_features_names <- gsub('-std', 'std', restricted_features_names)
 restricted_features_names <- gsub('[-()]', '', restricted_features_names)
 restricted_features_names <- tolower(restricted_features_names)
 
