@@ -11,8 +11,8 @@ This is the course project for the Getting and Cleaning Data Coursera course.
 4. Restrict merged data to only the measurements on the mean and standard deviation for each measurement (+ activity and subject id).
 5. Label restricted data using values from features.txt file
 6. Standardize labels so they correspond to best practices
-7. Appropriately label the data set with descriptive variable names (us labels for restricted data + add labless for activity and subject identifiers)
-8. From the data set in step 4, create a second, independent tidy data set with group means of each variable by subject and activity
+7. Appropriately label the data set with descriptive variable names (use labels for restricted data + add labels for activity and subject identifiers)
+8. From the data set in step 4, create a second, independent tidy data set with group means of each variable from restricted set by subject and activity
 9. Export the result file to tidy.txt
 10. Export column labels for the codebook
 
